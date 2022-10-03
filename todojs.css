@@ -1,0 +1,183 @@
+body{
+    background-color: black;
+
+    padding: 20px;
+
+   
+}
+#tasks {
+    color: white;
+    display: inline-block;
+    
+}
+#list{
+    color:white;
+    font-size: 30px;
+}
+.fa-circle-plus{
+    color: rgb(61, 121, 190);
+    font-size: 30px;
+    position: relative;
+    left: 400px;
+    top: -55px;
+    cursor: pointer;
+    
+}
+#additem{
+    display: inline-block;
+    position: relative;
+    left: 404px;
+    top: -60px;
+   
+}
+.anchor{
+    
+}
+.showbox , .showbox2, .showbox3{
+    border: 2px solid red;
+    background-color: whitesmoke;
+    width: 350px;
+    height: 180px;
+    border-radius: 10px;
+    display: none;
+    position: absolute;
+    left: 600px;
+    top: 50px;
+   
+    
+    
+}
+#container{
+    border: 2px solid red;
+}
+#txt{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+#inputbox, #inputItem{
+    width: 180px;
+    position: relative;
+    left: 70px;
+    height: 20px;
+}
+#add{
+    position: relative;
+    top:40px;
+    right: 105px;
+    padding: 5px;
+    width: 65px;
+    background-color: rgb(237, 180, 74);
+    border-radius: 5px;
+    font-size: 18px;
+}
+#close{
+    position: relative;
+    top:40px;
+    right: 75px;
+    padding: 5px;
+    width: 65px;
+    background-color: rgb(237, 180, 74);
+    border-radius: 5px;
+    font-size: 18px;
+}
+.container#blur.active {
+   filter: blur(5px);
+}
+#parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.child{
+    height: 290px;
+    width: 220px;
+    background-color: whitesmoke;
+    color: black;
+    top: 80px;
+    margin: 20px;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+
+    
+}
+
+.trashimg{
+       height: 30px;
+       width: 30px;
+       position: absolute;
+       bottom: 10px;
+       right: 40px;
+       
+       
+}
+.plusimg{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    /* top: 220px;
+    left: 150px;    */
+    bottom: 10px;
+    right: 10px;
+}
+.secondinput{
+    height: 200px;
+    width: 350px;
+    background-color: aqua;
+}
+.hide{
+    display: none;
+}
+.mark{
+    color: red;
+    text-decoration: line-through;
+}
+.cardTitle{
+    color: orangered;
+    font-size: 1.5rem;
+    margin: 0px;
+    text-align: center;
+    
+}
+.popup{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+}
+.item_expand_header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0 40px;
+}
+.expBack{
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-family: 'Aref Ruqaa Ink', serif;
+}
+.itemExpTitle{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.expAdd{
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-family: 'Aref Ruqaa Ink', serif;
+}
+.content{
+    display: flex;
+    justify-content: center;
+}
+.item_Detail{
+    background-color: white;
+    width: 200px;
+    min-height: 260px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    position: relative;
+}

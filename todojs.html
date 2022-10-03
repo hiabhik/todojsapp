@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./todojs.css">
+    <script src="https://kit.fontawesome.com/258baef9f6.js" crossorigin="anonymous"></script>
+</head>
+<body >
+    <div class="container"  id="blur">
+    <div >
+    <h1 id="tasks">
+        <b >Tasks</b></h1>
+        <span id="list">List</span>
+    </div>
+
+    <p id="dafaultMessage" style="color: white;font-size: 20px;">No Items in todo List</p>
+
+   
+    <i onclick="display()" class="fa-solid fa-circle-plus"></i>
+    <p id="additem" style="color: white;font-size: 20px;">Add Item</p>
+</div>
+
+<div class="showbox">
+    <p id="txt">Add New List</p>
+    <input type="text" id="inputbox" value="" name="">
+    <button onclick="addTask()" id="add">Add</button>
+    <button onclick="closebtn()" id="close">Close</button>
+</div>
+
+<div id="parent">
+    
+</div>
+
+<div class="showbox2">
+    <p id="txt">Add New Item</p>
+    <input type="text" id="inputItem" value="" name="">
+    <button onclick="addItem()" id="add">Add</button>
+    <button onclick="closebtn2()" id="close">Close</button>
+</div>
+
+<!-- <div class="showbox3">
+    <p id="txt1">Add New Item</p>
+    <input type="text" id="inputItem3" value="" name="">
+    <button onclick="addItem2()" id="add">Add</button>
+    <button onclick="closebtn3()" id="close1">Close</button>
+</div> -->
+
+
+ <script src="./todojs.js"></script>
+</body>
+</html>
